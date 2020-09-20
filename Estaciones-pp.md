@@ -9,7 +9,10 @@ Datos obtenidos del Senamhi en formato .txt y.xlsx.
 Librerías utilizadas:
 
 -library(tidyverse)
+
 -library(dplyr)
+
 -library(readxl)
+
 -library(Hmisc)
 
