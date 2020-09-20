@@ -1,0 +1,10 @@
+# Trabajo-Final-Programacion-R
+Trabajo final del curso de Programación en R. Análisis de datos climáticos.
+Se buscaba graficar un mapa con datos de precipitacion a lo largo de un año, desde enero del 2019 hasta diciembre de 2019 del Departamento de loreto.
+Para ello se requirió de archivos shape de la base de datos de geogps, se descargó DEPARTAMENTOS.shp; y se descargo datos con la funcion getdata
+De la libreria Raster.
+Se hizo uso de principalmente las librerias tidyverse, raster, sp, rgdal, ncdf4, rgeos, gtools, Rcolorbrewer. 
+Primero se cargaron las librerias, luego se extrajo el departamento de loreto para hacer una mascara cortandolo en el raster descargsdo de Worldclim
+Se crea un dataframe con las etiquetas para usarlas despues, de enero a diciembre
+Se crea una tabla convirtiendo el raster a puntos, y haciendo union con el dataframe de los meses.
+Finalmente se usa la libreria ggplot para graficar los mapas, haciendo uso de las funciones de esta para obtener el estilo y carscteristicas deseadas.
